@@ -37,11 +37,9 @@ function Posts() {
         </div>
         <div className="cards">
           <div className="card">
-            <div className="favorite">
-              <Heart></Heart>
-            </div>
+           
             <div className="image">
-              <img src="../../../Images/R15V3.jpg" alt="" />
+              <img src="https://news.maxabout.com/wp-content/uploads/2019/01/Yamaha-R15-V3-ABS-Launched-3.jpg" alt="" />
             </div>
             <div className="content">
               <p className="rate">&#x20B9; 250000</p>

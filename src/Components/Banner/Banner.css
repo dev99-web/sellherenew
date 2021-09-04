@@ -29,7 +29,13 @@
   .bannerChildDiv .banner img{
     width: 100vw;
   }
-  
+
+  /* .menuBar{
+      background-image: url("../../assets/W.png");
+  } */
+  .menuBar{
+      background-color: thistle;
+  }
   @media only screen and (max-width: 700px) {
     .otherQuickOptions {
       display: none;

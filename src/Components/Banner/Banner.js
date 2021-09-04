@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Banner.css';
 import Arrow from '../../assets/Arrow'
+
 function Banner() {
   return (
     <div className="bannerParentDiv">
@@ -22,10 +23,9 @@ function Banner() {
           </div>
         </div>
         <div className="banner">
-          <img
-            src="../../../Images/banner copy.png"
-            alt=""
-          />
+          {/* <img
+            src="https://primemd.com/wp-content/uploads/revslider/Medical/medic-slider-bg-blur-opt.jpg" alt=""
+          /> */}
         </div>
       </div>
       
