@@ -23,9 +23,6 @@ function Banner() {
           </div>
         </div>
         <div className="banner">
-          {/* <img
-            src="https://primemd.com/wp-content/uploads/revslider/Medical/medic-slider-bg-blur-opt.jpg" alt=""
-          /> */}
         </div>
       </div>
       

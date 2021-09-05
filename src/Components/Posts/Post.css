@@ -26,9 +26,9 @@
   }
   
   .moreView .cards {
-    white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    /* white-space: nowrap; */
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
   }
   
   .card {
@@ -39,12 +39,6 @@
     height: 270px;
     display: inline-block;
     cursor: pointer;
-  }
-  
-  .card .favorite {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
   }
   
   .card .image {
@@ -87,5 +81,5 @@
   }
   
   .postParentDiv {
-      background-image: url("../../assets/abstract-blue-and-white-wavy-lines-motion-graphic-design-video-animation-hd-1920x1080_h4mjocwkl_thumbnail-1080_01.png")
+      background-image: url("../../assets/w-KAgGjw4HgNY-unsplash.jpg")
   }

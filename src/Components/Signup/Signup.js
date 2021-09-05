@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 // import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { FirebaseContext } from '../../store/FirebaseContext';
+import { FirebaseContext } from '../../store/Context';
 import { useHistory } from 'react-router-dom';
 import './Signup.css';
 
