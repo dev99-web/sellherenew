@@ -7,12 +7,18 @@ import { AuthContext, FirebaseContext } from './store/Context'
 import View from './Pages/Viewpost'
 import './App.css';
 import Post from './store/PostContext';
+import Search from './store/SearchContext';
 
 
 /**
  * ?  =====Import Components=====
  */
 import Home from './Pages/Home';
+import SearchPage from './Pages/SearchPage';
+import AccountPage from './Pages/AccountPage';
+import Editpages from './Pages/Editpages';
+import CarPage from './Pages/CarPage';
+import BikePage from './Pages/BikePage';
 
 function App() {
   const { setUser } = useContext(AuthContext)
@@ -28,6 +34,7 @@ function App() {
   return (
 
     <div>
+      <Search>
       <Post>
         <BrowserRouter>
           <Route exact path='/'>
@@ -36,17 +43,33 @@ function App() {
           <Route path='/signup'>
             <Signup />
           </Route>
-          <Route path='/login'>
+<Route path='/login'>
             <Login />
           </Route>
-          <Route path='/create'>
+                    <Route path='/create'>
             <Create />
           </Route>
-          <Route path='/view'>
+    <Route path='/view'>
             <View />
+          </Route>
+          <Route path='/search'>
+            <SearchPage />
+          </Route>
+          <Route path='/account'>
+            <AccountPage/>
+          </Route>
+          <Route path='/edit'>
+            <Editpages/>
+          </Route>
+          <Route path='/car'>
+            <CarPage/>
+          </Route>
+          <Route path='/bike'>
+            <BikePage/>
           </Route>
         </BrowserRouter>
       </Post>
+      </Search>
     </div>
   );
 }

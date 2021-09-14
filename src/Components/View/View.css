@@ -48,3 +48,12 @@
     font-weight: 400;
     padding: 0;
   }
+
+  .msgBtn{
+    margin-left: 32px;
+    margin-top: 10px;
+  }
+
+  .emailForm{
+    margin-top: 25px;
+  }

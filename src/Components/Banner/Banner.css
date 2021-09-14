@@ -36,8 +36,42 @@
       background-image: url("../../assets/W.png");
   } */
   .menuBar{
-      background-color: #0F297D;
+      background-color: rgb(45, 81, 201);;
   }
+  .otherQuickOptions{
+    background-color: rgb(45, 81, 201);
+  }
+
+  .categoryFilter{
+    margin-left: 380px;
+    /* margin-bottom: 50px; */
+    font-size: 15px;
+    color: white;
+  }
+  .categoryFilter2{
+    margin-left: 2000px;
+    /* margin-bottom: 50px; */
+    font-size: 15px;
+    color: white;
+  }
+  .secondCategory{
+    margin-left: 25px;
+  }
+  .secondCategory:hover{
+    cursor: pointer;
+  }
+
+  .bannerParentDiv{
+    background-color: rgb(45, 81, 201);
+  }
+
+  .carSpan:hover{
+    cursor: pointer;
+  }
+  .bikeSpan:hover{
+    cursor: pointer;
+  }
+
   @media only screen and (max-width: 700px) {
     .otherQuickOptions {
       display: none;

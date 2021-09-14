@@ -11,6 +11,7 @@ const Create = () => {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
   const [price, setPrice] = useState("");
+  const [email, setEmail] = useState("");
   const [image, setImage] = useState(null);
   const date = new Date()
   const handleSubmit =()=>{
@@ -23,6 +24,7 @@ const Create = () => {
           price,
           url,
           userId:user.uid,
+          email,
           createdAt:date.toDateString()
         })
         history.push('/')
@@ -33,7 +35,7 @@ const Create = () => {
   return (
     <Fragment>
       <Header />
-      <card>
+      {user ? <card>
         <div className="centerDiv">
           
             <label htmlFor="fname">Name</label>
@@ -70,9 +72,21 @@ const Create = () => {
               onChange={(e) => setPrice(e.target.value)}
               name="Price" />
             <br />
+            <br />
+            <label htmlFor="fname">Email</label>
+            <br />
+            <input
+              className="input"
+              type="email"
+              id="fname"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              name="Price" />
+            <br />
         
           <br />
-          <img alt="Posts" width="200px" height="200px" src={image ? URL.createObjectURL(image) : ''}></img>
+          {image ?<img width="200px" height="200px" src={image ? URL.createObjectURL(image) : ''}/>
+          : <img alt="" src=""/>}
           
             <br />
             <input onChange={(e) => {
@@ -80,10 +94,16 @@ const Create = () => {
             }} type="file" />
             <br />
             <button onClick={handleSubmit}
-              className="uploadBtn">upload and Submit</button>
+              className="uploadBtn">Upload and Submit</button>
           
         </div>
-      </card>
+      </card> :
+      // <div className="loginImage">
+      //   <br /><br /><br /><br /><br /><br /><br />
+      //   <button>Please Login to continue</button>
+      // </div>
+      history.push("/login")
+      }
     </Fragment>
   );
 };

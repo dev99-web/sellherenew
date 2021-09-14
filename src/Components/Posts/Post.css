@@ -1,5 +1,4 @@
 .moreView {
-    margin: 16px 16px 24px;
     padding: 16px 16px 32px;
     border-radius: 4px;
   }
@@ -82,4 +81,8 @@
   
   .postParentDiv {
       background-image: url("../../assets/w-KAgGjw4HgNY-unsplash.jpg")
+  }
+
+  .card{
+    margin-top: 25px;
   }

@@ -25,8 +25,8 @@
   }
   
   .placeSearch ::selection {
-    border-color: #6f9de2;
-    outline-color: #23e5db;
+    border-color: #020303;
+    outline-color: #080808;
   }
   
   .placeSearch input {
@@ -41,7 +41,7 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    background-color: rgb(21, 216, 37);
+    background-color: rgb(3, 5, 3);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,7 +135,7 @@
   }
   
   .sellMenu .right {
-    fill: #3a77ff;
+    fill: #386de0;
   }
   .sellMenu .sellMenuContent {
     display: flex;
@@ -153,7 +153,7 @@
   }
 
 .span1{
-    color: tomato;
+    color: rgb(250, 250, 250);
 }
   
   /* .sellMenu .sellMenuContent svg {
@@ -161,6 +161,10 @@
   } */
   .sellMenu .sellMenuContent span {
     margin-left: 5px;
+  }
+
+  .brandName:hover{
+    cursor: pointer;
   }
   
   @media only screen and (max-width: 700px) {

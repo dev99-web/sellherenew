@@ -28,7 +28,7 @@ function Posts() {
     <div className="postParentDiv">
       <div className="moreView">
         <div className="heading">
-          <span>Quick Menu</span>
+          <span>Products Menu</span>
         </div>
         <div className="cards">
           {/* {products.map(product => { */}

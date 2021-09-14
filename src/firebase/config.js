@@ -4,12 +4,12 @@ import 'firebase/firestore'
 import 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAXPh1aLXuWrUa0su8-xFaMU8vJxDlC3vs",
-    authDomain: "login-dff76.firebaseapp.com",
-    projectId: "login-dff76",
-    storageBucket: "login-dff76.appspot.com",
-    messagingSenderId: "11516162647",
-    appId: "1:11516162647:web:576b63bf272bb3c77ee912"
-  };
+  apiKey: "AIzaSyAFk9YI0Ps7nMBFb72iQ-jtnUlK6XUVzDY",
+  authDomain: "sellhere-25924.firebaseapp.com",
+  projectId: "sellhere-25924",
+  storageBucket: "sellhere-25924.appspot.com",
+  messagingSenderId: "956549717486",
+  appId: "1:956549717486:web:98602b38194f42e1b582ff"
+};
 
   export default firebase.initializeApp(firebaseConfig);
